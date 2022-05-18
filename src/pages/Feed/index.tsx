@@ -7,6 +7,7 @@ import { Post, PostProps } from "../../components/Post";
 import { Stories, StoryProps } from "../../components/Stories";
 import api from "../../service/api";
 import { Container } from "./styles";
+import { feed } from "../../../db.json";
 
 interface SuggestionsProps {
   id: number;
@@ -23,18 +24,31 @@ export function Feed() {
   async function loadFeed() {
     setIsLoading(true);
     try {
-      const { data } = await api.get("/feed");
-      const dataPosts: PostProps[] = data.posts;
+      if (process.env.NODE_ENV === "development") {
+        console.log(feed);
+        const { data } = await api.get("/feed");
+        const dataPosts: PostProps[] = data.posts;
 
-      setPosts(
-        dataPosts.map((post) => ({
-          ...post,
-          isLike: false,
-          isSave: false,
-        }))
-      );
-      setSuggestions(data.suggestions);
-      setStories(data.stories);
+        setPosts(
+          dataPosts.map((post) => ({
+            ...post,
+            isLike: false,
+            isSave: false,
+          }))
+        );
+        setSuggestions(data.suggestions);
+        setStories(data.stories);
+      } else {
+        setPosts(
+          feed.posts.map((post) => ({
+            ...post,
+            isLike: false,
+            isSave: false,
+          }))
+        );
+        setSuggestions(feed.suggestions);
+        setStories(feed.stories);
+      }
       setIsLoading(false);
     } catch (error) {
       console.log(error);

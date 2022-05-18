@@ -17,7 +17,7 @@ export interface StoryProps {
     id: number;
     image: string;
     datetime: string;
-    isView: boolean;
+    isView?: boolean;
   }[];
 }
 
