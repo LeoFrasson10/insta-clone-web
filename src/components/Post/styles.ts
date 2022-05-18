@@ -121,6 +121,9 @@ export const Container = styled.div`
 
   .comments {
     margin-top: ${({ theme }) => theme.spacing}px;
+    p {
+      margin-top: ${({ theme }) => theme.spacing * 0.5}px;
+    }
     a {
       color: ${({ theme }) => theme.colors.common.black};
       text-decoration: none;

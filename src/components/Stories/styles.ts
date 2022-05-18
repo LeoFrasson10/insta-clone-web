@@ -6,7 +6,8 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.colors.common.white};
   border: 1px solid ${({ theme }) => theme.colors.border.primary};
   border-radius: ${({ theme }) => theme.spacing * 0.2}px;
-  padding: ${({ theme }) => theme.spacing}px;
+  padding: ${({ theme }) => theme.spacing * 2}px
+    ${({ theme }) => theme.spacing * 1}px;
   margin-bottom: ${({ theme }) => theme.spacing * 3}px;
   display: flex;
   align-items: center;

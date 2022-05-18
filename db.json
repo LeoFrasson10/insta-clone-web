@@ -1,0 +1,229 @@
+{
+  "feed": {
+    "posts": [
+      {
+        "id": 1,
+        "username": "leo_frasson",
+        "userfullname": "Leonardo Frasson",
+        "userimage": "https://avatars.githubusercontent.com/u/58645846?v=4",
+        "postimage": "https://picsum.photos/500/500?random=2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa",
+        "likes": 0,
+        "comments": [
+          {
+            "id": 1,
+            "username": "leo_frasson",
+            "userfullname": "Leonardo Frasson",
+            "userimage": "https://picsum.photos/100/100",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+          },
+          {
+            "id": 2,
+            "username": "leo_frasson",
+            "userfullname": "Leonardo Frasson",
+            "userimage": "https://picsum.photos/100/100",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+          },
+          {
+            "id": 3,
+            "username": "leo_frasson",
+            "userfullname": "Leonardo Frasson",
+            "userimage": "https://picsum.photos/100/100",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+          }
+        ],
+        "datetime": "2020-05-01T00:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "username": "leo_frasson",
+        "userfullname": "Leonardo Frasson",
+        "userimage": "https://picsum.photos/100/100",
+        "postimage": "https://picsum.photos/500/500?random=3",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ",
+        "likes": 0,
+        "comments": [
+          {
+            "id": 1,
+            "username": "leo_frasson",
+            "userfullname": "Leonardo Frasson",
+            "userimage": "https://picsum.photos/100/100",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. "
+          },
+          {
+            "id": 2,
+            "username": "leo_frasson",
+            "userfullname": "Leonardo",
+            "userimage": "https://picsum.photos/100/100",
+            "comment": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+          }
+        ],
+        "datetime": "2020-05-01T00:00:00.000Z"
+      },
+      {
+        "id": 3,
+        "username": "leo_frasson",
+        "userfullname": "Leonardo Frasson",
+        "userimage": "https://picsum.photos/100/100",
+        "postimage": "https://picsum.photos/500/500?random=4",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "likes": 0,
+        "comments": [],
+        "datetime": "2020-05-01T00:00:00.000Z"
+      }
+    ],
+    "stories": [
+      {
+        "id": 1,
+        "username": "leo_frasson",
+        "userimage": "https://picsum.photos/100/100?random=1",
+
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          },
+          {
+            "id": 2,
+            "image": "https://picsum.photos/300/500?random=3",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          },
+          {
+            "id": 3,
+            "image": "https://picsum.photos/300/500?random=4",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=2",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=3",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=4",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=5",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=4",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=6",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=7",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=8",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=9",
+        "storie": [
+          {
+            "id": 1,
+            "image": "https://picsum.photos/300/500?random=2",
+            "datetime": "2020-05-01T00:00:00.000Z"
+          }
+        ]
+      }
+    ],
+    "suggestions": [
+      {
+        "id": 1,
+        "username": "leo_frasson",
+        "userimage": "https://picsum.photos/100/100?random=1",
+        "follow": false
+      },
+      {
+        "id": 2,
+        "username": "leo_frasson2",
+        "userimage": "https://picsum.photos/100/100?random=2",
+        "follow": false
+      },
+      {
+        "id": 3,
+        "username": "leo_frasson3",
+        "userimage": "https://picsum.photos/100/100?random=3",
+        "follow": false
+      },
+      {
+        "id": 4,
+        "username": "leo_frasson4",
+        "userimage": "https://picsum.photos/100/100?random=4",
+        "follow": false
+      },
+      {
+        "id": 5,
+        "username": "leo_frasson5",
+        "userimage": "https://picsum.photos/100/100?random=5",
+        "follow": false
+      }
+    ]
+  }
+}

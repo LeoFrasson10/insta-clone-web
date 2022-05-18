@@ -30,9 +30,9 @@ export const Container = styled.div`
           #e600cc 80%
         );
         padding: 2px;
-        width: 56px;
-        height: 56px;
-        border-radius: 28px;
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
       }
     }
     .name {

@@ -21,5 +21,6 @@ export default {
       primary: "#dbdbdb",
       focus: "#595959",
     },
+    like: "#ed4956",
   },
 };

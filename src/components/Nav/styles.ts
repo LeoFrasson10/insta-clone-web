@@ -37,6 +37,9 @@ export const Container = styled.div`
 
     .search {
       width: 268px;
+      @media (max-width: 636px) {
+        display: none;
+      }
     }
     .actions {
       flex: 1 0 127px;
@@ -57,6 +60,11 @@ export const Container = styled.div`
           svg {
             width: 28px;
             height: 28px;
+
+            @media (max-width: 636px) {
+              width: 20px;
+              height: 20px;
+            }
           }
 
           &:not(:first-child) {
